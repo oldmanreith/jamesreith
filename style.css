@@ -11,10 +11,13 @@ html{background:#FFFFFF;color:#000000;font-family: "Helvetica";font-size:calc(18
 .menu {
 	display: block;
 	padding-bottom: 23px;
+   width: 750px;
+    margin: auto;
+
   
 }
 .menu ul {
-	margin: 0;
+	margin: 2em;
 	padding: 0;
 	list-style-type: none;
 	list-style-image: none;
