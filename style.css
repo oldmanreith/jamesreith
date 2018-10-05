@@ -9,10 +9,8 @@ html{background:#FFFFFF;color:#000000;font-family: "Helvetica";font-size:calc(18
 /* = menu ----------------------- */
 
 .menu {
-	display: block;
-	padding-bottom: 23px;
-   width: 750px;
-    margin: auto;
+	display:block;max-width:32rem;margin:0 auto;padding:2rem 1rem
+ 
 
   
 }
