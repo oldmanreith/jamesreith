@@ -12,9 +12,13 @@ html{background:#FFFFFF;color:#000000;font-family: "Helvetica";font-size:calc(18
     background-color: #FFFFFF;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+  width: 100%;   ; /* Full width */}
+
+/* Links inside the navbar */
+.navbar a {
   
-  
+
+   
 
 
 
