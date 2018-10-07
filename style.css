@@ -4,29 +4,22 @@ body {
   font-family: "Menlo", "helevetica neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
-html{background:#FFFFFF;color:#000000;font-family: "Helvetica";font-size:calc(18px + 0.5vw);line-height:1.5;overflow-wrap:break-word;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent}body{margin:0;overflow-x:hidden}main{display:block;max-width:32rem;margin:0 auto;padding:2rem 1rem}*+*{margin-top:1.5rem}p+p{margin-top:0.75rem}hr{height:0.25rem;border:2px solid #616d83;border-left:0;border-right:0;margin:2.1rem 0}:focus{outline:0.125rem solid #F15618;outline-offset:.125rem}a{color:#92DCE5}a:link,a:visited{color:#0000FF}a:hover,a:active,a:focus{color:#F15618}h1,h2,h3{font-weight:bold;line-height:1.1}h1{font-size:3rem;margin-top:0}h2{font-size:1.75rem}h3{font-size:1rem}
+html{background:#FFFFFF;color:#000000;font-family: "Helvetica";font-size:calc(18px + 0.5vw);line-height:1.5;overflow-wrap:break-word;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:transparent}body{margin:0;overflow-x:hidden}
+main{display:block;max-width:32rem;margin:0 auto;padding:2rem 1rem; margin-top: 30px;}*+*{margin-top:1.5rem}p+p{margin-top:0.75rem}hr{height:0.25rem;border:2px solid #616d83;border-left:0;border-right:0;margin:2.1rem 0}:focus{outline:0.125rem solid #F15618;outline-offset:.125rem}a{color:#92DCE5}a:link,a:visited{color:#0000FF}a:hover,a:active,a:focus{color:#F15618}h1,h2,h3{font-weight:bold;line-height:1.1}h1{font-size:3rem;margin-top:0}h2{font-size:1.75rem}h3{font-size:1rem}
 
-/* = menu ----------------------- */
+.navbar {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */}
 
-.menu {
-	display:block;max-width:32rem;margin:0 auto;padding:2rem 1rem
- 
+.navbar a {
+   float: left;
+    display: block;
+  max-width:32rem;margin:0 auto;padding:2rem 1rem;
+    text-align: center;
+    padding: 14px 16px;
+}
 
-  
-}
-.menu ul {
-	margin: 2em;
-	padding: 0;
-	list-style-type: none;
-	list-style-image: none;
-}
-.menu li {
-	display: inline;
-	padding: 5px 20px 5px 20px
-}
-.menu li:first-child {
-	padding: 5px 20px 5px 0;
-}
-.menu-footer-container {
-	border-top: 1px solid #ccc;
-	padding-top: 8px;
+
