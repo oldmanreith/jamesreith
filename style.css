@@ -20,3 +20,7 @@ main{margin-top: 14px;}*+*{margin-top:1.5rem}p+p{margin-top:0.75rem}hr{height:0.
 /* Links inside the navbar */
 .navbar a {padding: 14px 20px 14px 0px}
 
+/* lists */
+
+ul,ol{font-weight:400;text-transform:none;font-size:calc(16px + 0.5vw);line-height:1.4285714286;padding-left:26pt;}ul{list-style:disc}ol{list-style:decimal}li{line-height:0}
+
