@@ -27,7 +27,13 @@ main{margin-top: 40px;}*+*{margin-top:1.5rem}p+p{margin-top:0.75rem}hr{height:0.
 
 ul,ol{font-weight:400;font-size:calc(19px+ 0.5vw);text-transform:none;line-height:1.4285714286;padding-left:26pt;}ul{list-style:square}ol{list-style:square}li{line-height:0}
 
-/* cards */
+:target:before {
+content:"";
+display:block;
+height:90px; /* fixed header height*/
+margin:-40px 0 0; /* negative fixed header height */
+}
+
 
 
 
