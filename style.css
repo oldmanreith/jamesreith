@@ -50,8 +50,8 @@ ul,ol{font-weight:400;font-size:calc(19px+ 0.5vw);text-transform:none;line-heigh
 :target:before {
 content:"";
 display:block;
-height:90px; /* fixed header height*/
-margin:-40px 0 0; /* negative fixed header height */
+height:0px; /* fixed header height*/
+margin:0px 0 0; /* negative fixed header height */
 }
 
 
